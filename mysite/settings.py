@@ -123,3 +123,5 @@ STATIC_ROOT = os.path.join(BASE_DIR, "static")
 
 # ログインページに直接アクセスして、ログインが成功したときにトップレベルのインデックス（ブログのホームページ）にリダイレクトします。
 LOGIN_REDIRECT_URL = '/'
+
+#?
