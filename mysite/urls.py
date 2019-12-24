@@ -19,6 +19,7 @@ from django.contrib.auth import views
 
 
 urlpatterns = [
+    path('summernote/', include('django_summernote.urls')),
     path('admin/', admin.site.urls),
     path('',include('blog.urls')),
     path('accounts/login/', views.LoginView.as_view(), name='login'),
